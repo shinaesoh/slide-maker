@@ -85,13 +85,35 @@ projects/<프로젝트>/svg_final/                        ← 브라우저로 �
 
 **3단계 — 저장소 받기 + 의존성 설치**
 
-```bash
+**가상환경(venv)에 설치하는 것을 권장합니다.** 이 저장소는 python-pptx·PyMuPDF·numpy·Pillow·Flask 등 15개 남짓을 설치하는데, 전역 Python에 넣으면 회사 PC의 다른 파이썬 작업과 버전이 충돌할 수 있습니다.
+
+Windows (PowerShell):
+
+```powershell
 git clone https://github.com/shinaesoh/slide-maker.git
 cd slide-maker
+python -m venv .venv
+.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
 
+macOS / Linux:
+
+```bash
+git clone https://github.com/shinaesoh/slide-maker.git
+cd slide-maker
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+> PowerShell에서 `Activate.ps1`이 실행 정책 때문에 막히면 `.venv\Scripts\activate.bat`를 쓰거나, 한 번만 `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`를 실행하세요.
+
 받은 폴더를 에이전트에서 엽니다 — IDE형이면 File → Open Folder, CLI형이면 `cd slide-maker` 후 실행.
+
+**에이전트는 venv가 활성화된 터미널에서 띄워야 합니다.** 그래야 스크립트가 venv의 Python을 씁니다. 터미널을 새로 열 때마다 활성화(`.venv\Scripts\Activate.ps1`)가 필요하고, 프롬프트 앞에 `(.venv)`가 보이면 제대로 된 상태입니다. `.venv/`는 `.gitignore`에 들어 있어 커밋되지 않습니다.
+
+venv 없이 전역에 설치하려면 위에서 `python -m venv` / 활성화 두 줄만 빼고 `pip install -r requirements.txt`를 실행하면 됩니다.
 
 **4단계 (선택) — AI 이미지 생성**
 
