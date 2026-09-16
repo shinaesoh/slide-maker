@@ -52,12 +52,9 @@ If the folder is not a Git clone, the script will tell you how to migrate a ZIP 
 
 ## Q: The repo is over 1 GB and my skills tool fails to download it — can I get just the skill?
 
-Yes. The full repository is large (Git history plus bundled example decks and their assets), and that size is baked into the history — it can't be trimmed without breaking the many existing forks. If you only want the skill and not the full repo, use a lightweight path instead:
+This fork clones at roughly 53 MB, so the full clone described in the [Windows 설치 가이드](./windows-installation.md) is the supported path here — just use it.
 
-- **Marketplace CLI**: `npx skills add hugohe3/ppt-master` or Claude Code's `/plugin install` fetch the skill files only (see the Set Up section of the README).
-- **Manual download**: grab `ppt-master-skill-*.zip` from the [Releases](https://github.com/hugohe3/ppt-master/releases) page — the skill files only (~50 MB), no full-repo clone.
-
-Either way, run `pip install -r requirements.txt` from the installed location so the post-processing scripts work.
+> ⚠️ The upstream lightweight installers (`npx skills add hugohe3/ppt-master`, the `ppt-master-skill-*.zip` releases) fetch **the original project, not this fork**. They will not include the customizations in this repository. Don't use them to install this.
 
 ## Q: Can I use AI-generated images in my presentation?
 
