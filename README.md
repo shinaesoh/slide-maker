@@ -1,11 +1,11 @@
-# Slide Master — 문서를 넣으면, PowerPoint에서 진짜 편집되는 PPT가 나옵니다
+# Slide Maker — 문서를 넣으면, PowerPoint에서 진짜 편집되는 PPT가 나옵니다
 
 [![Output](https://img.shields.io/badge/output-native%20PPTX%20(DrawingML)-217346)](#faq)
 [![Font](https://img.shields.io/badge/font-Pretendard-0b1f3a)](#한글-폰트--pretendard-고정)
 [![Canvas](https://img.shields.io/badge/canvas-16%3A9%20기본%20%C2%B7%20세로형%C2%B7SNS%20포맷%20지원-4633E3)](.claude/skills/ppt-master/references/canvas-formats.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-> 이 저장소는 [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)(MIT)를 기반으로 한 **장피엠 커스터마이즈 워크스페이스**입니다. 한국어 덱 제작에 맞춰 작업 절차 커스터마이징, 완료 PPTX 검증 워크플로우) 등이 조정·추가되어 있습니다. 원 프로젝트의 라이선스와 저작권 고지는 그대로 유지합니다.
+> 이 저장소는 [byungjunjang/slide-master](https://github.com/byungjunjang/slide-master)를 기반으로 한 **사내 공유용 워크스페이스**입니다. 원 계보는 [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)(MIT) → slide-master(한국어 덱 제작 커스터마이즈) → 이 저장소이며, 모든 상위 프로젝트의 라이선스와 저작권 고지를 그대로 유지합니다.
 
 ---
 
@@ -86,12 +86,12 @@ projects/<프로젝트>/svg_final/                        ← 브라우저로 �
 **3단계 — 저장소 받기 + 의존성 설치**
 
 ```bash
-git clone https://github.com/byungjunjang/slide-master.git
-cd slide-master
+git clone https://github.com/shinaesoh/slide-maker.git
+cd slide-maker
 pip install -r requirements.txt
 ```
 
-받은 폴더를 에이전트에서 엽니다 — IDE형이면 File → Open Folder, CLI형이면 `cd slide-master` 후 실행.
+받은 폴더를 에이전트에서 엽니다 — IDE형이면 File → Open Folder, CLI형이면 `cd slide-maker` 후 실행.
 
 **4단계 (선택) — AI 이미지 생성**
 
@@ -189,7 +189,14 @@ sources/회사표준템플릿.pptx 디자인 그대로 쓰고,
 
 **Q. 이 저장소는 어떻게 업데이트하나요?**
 
-**A.** 업스트림([hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)) 최신화가 필요하면 새로 받은 뒤 `projects/`와 로컬 커스텀을 옮기는 방식을 씁니다. 이 워크스페이스는 개인 커스터마이즈가 섞여 있어 단순 `git pull` 대상이 아닙니다.
+**A.** 쓰는 사람은 `git pull`만 하면 됩니다. 관리자가 상위 저장소([byungjunjang/slide-master](https://github.com/byungjunjang/slide-master))의 개선분을 반영할 때는 이 저장소에 `upstream` 리모트가 걸려 있으므로 아래로 당겨옵니다.
+
+```bash
+git fetch upstream
+git merge upstream/main
+```
+
+`projects/`는 `.gitignore`에 들어 있어 내 작업물이 덮어써지거나 커밋되지 않습니다.
 
 ---
 
@@ -230,7 +237,7 @@ sources/회사표준템플릿.pptx 디자인 그대로 쓰고,
 
 ## 라이선스
 
-[MIT](LICENSE). 이 저장소는 [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) (MIT, Copyright © Hugo He)의 포크이며, 원 프로젝트의 라이선스 전문과 저작권 고지를 유지합니다. 아이콘·폰트 등 번들 자산은 각자의 라이선스(SIL OFL 등)를 따릅니다.
+[MIT](LICENSE). 이 저장소는 [byungjunjang/slide-master](https://github.com/byungjunjang/slide-master)를 거쳐 [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) (MIT, Copyright © Hugo He)에서 파생했으며, 원 프로젝트의 라이선스 전문과 저작권 고지를 유지합니다. 아이콘·폰트 등 번들 자산은 각자의 라이선스(SIL OFL 등)를 따릅니다.
 
 외부 저장소에서 가져와 개작한 스킬은 각 디렉토리에 업스트림 라이선스 전문을 동봉합니다.
 
