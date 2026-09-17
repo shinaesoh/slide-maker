@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="dabeeo-master" data-pptx-master-name="Dabeeo Intelligence" data-pptx-layout="content_image_full" data-pptx-layout-name="Content (Full Image)">
+  <!-- Dabeeo Intelligence — 03t Full-bleed image · edge-to-edge picture band over a caption block -->
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <text id="layout-footer-note" x="640" y="704.24" text-anchor="middle" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="13.33" fill="#808080" data-pptx-layer="layout" data-pptx-editable="false">Dabeeo Inc. All rights reserved and confidential</text>
+  <image id="layout-footer-logo" href="../images/dabeeo-logo-footer.png" x="1199.67" y="692.82" width="57.78" height="12.85" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-caption-rule" x="64" y="492" width="72" height="6" fill="#214DC5" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <g id="picture-slot" data-pptx-placeholder="picture" data-pptx-placeholder-idx="6" data-pptx-placeholder-bounds="0 0 1280 452">
+    <image id="picture-carrier" data-pptx-placeholder-carrier="true" href="../images/ending-earth.jpg" x="0" y="0" width="1430.5" height="452" preserveAspectRatio="none"/>
+  </g>
+  <g id="eyebrow-slot" data-pptx-placeholder="body" data-pptx-placeholder-idx="1" data-pptx-placeholder-bounds="64 516 1152 30">
+    <text id="eyebrow-carrier" data-pptx-placeholder-carrier="true" x="64" y="540" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="19" fill="#00B0F0">{{EYEBROW}}</text>
+  </g>
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="64 552 1152 48">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="64" y="592" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="34.67" font-weight="bold" fill="#214DC5">{{PAGE_TITLE}}</text>
+  </g>
+  <g id="caption-slot" data-pptx-placeholder="body" data-pptx-placeholder-idx="2" data-pptx-placeholder-bounds="64 608 1152 40">
+    <text id="caption-carrier" data-pptx-placeholder-carrier="true" x="64" y="634" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#434C61">{{CAPTION}}</text>
+  </g>
+  <g id="page-number-slot" data-pptx-placeholder="slide-number" data-pptx-placeholder-bounds="28.44 672.71 58 38.33">
+    <text id="page-number-carrier" data-pptx-placeholder-carrier="true" x="57.44" y="704.24" text-anchor="middle" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="13.33" fill="#808080">{{PAGE_NUM}}</text>
+  </g>
+</svg>

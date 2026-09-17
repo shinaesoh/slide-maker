@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="dabeeo-master" data-pptx-master-name="Dabeeo Intelligence" data-pptx-layout="content_full" data-pptx-layout-name="Content (Full Width)">
+  <!-- Dabeeo Intelligence — 03l Timeline · alternating milestone cards along a horizontal axis -->
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <line id="layout-rail" x1="56.89" y1="0" x2="56.89" y2="538.22" stroke="#BFBFBF" stroke-width="1.333" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <text id="layout-vertical-mark" transform="rotate(90 56.89 561.41)" x="157.82" y="564.74" text-anchor="end" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="10.67" fill="#214DC5" data-pptx-layer="layout" data-pptx-editable="false">DABEEO INTELLIGENCE</text>
+  <text id="layout-footer-note" x="640" y="704.24" text-anchor="middle" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="13.33" fill="#808080" data-pptx-layer="layout" data-pptx-editable="false">Dabeeo Inc. All rights reserved and confidential</text>
+  <image id="layout-footer-logo" href="../images/dabeeo-logo-footer.png" x="1199.67" y="692.82" width="57.78" height="12.85" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <g id="eyebrow-slot" data-pptx-placeholder="body" data-pptx-placeholder-idx="1" data-pptx-placeholder-bounds="103.17 45.56 1103.83 35.66">
+    <text id="eyebrow-carrier" data-pptx-placeholder-carrier="true" x="655.08" y="81.83" text-anchor="middle" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="21.33" fill="#00B0F0">{{EYEBROW}}</text>
+  </g>
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="103.17 87.11 1103.83 47.5">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="655.08" y="121.38" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="34.67" font-weight="bold" fill="#214DC5">{{PAGE_TITLE}}</text>
+  </g>
+  <g id="lead-slot" data-pptx-placeholder="body" data-pptx-placeholder-idx="2" data-pptx-placeholder-bounds="103.17 140.83 1103.83 68">
+    <text id="lead-carrier" data-pptx-placeholder-carrier="true" x="655.08" y="167.55" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18.67" fill="#434C61">{{LEAD}}<tspan x="655.08" dy="23.15">{{LEAD_2}}</tspan></text>
+  </g>
+  <g id="page-number-slot" data-pptx-placeholder="slide-number" data-pptx-placeholder-bounds="28.44 672.71 58 38.33">
+    <text id="page-number-carrier" data-pptx-placeholder-carrier="true" x="57.44" y="704.24" text-anchor="middle" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="13.33" fill="#808080">{{PAGE_NUM}}</text>
+  </g>
+  <g id="chapter-mark">
+    <rect x="0" y="67.11" width="56.89" height="44.21" fill="#214DC5"/>
+    <text x="28.44" y="109.22" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="26.67" font-weight="bold" fill="#FFFFFF">03</text>
+    <text x="1257.44" y="32.21" text-anchor="end" font-family="'Pretendard Light', Pretendard, 'Malgun Gothic', sans-serif" font-size="12" fill="#253062">03 핵심 기술 및 제품</text>
+  </g>
+  <g id="timeline-axis">
+    <line x1="128.0" y1="434.0" x2="1160.0" y2="434.0" stroke="#D7DEEC" stroke-width="3"/>
+  </g>
+  <g id="milestone-1">
+    <circle cx="168.0" cy="434.0" r="11" fill="#214DC5"/>
+    <circle cx="168.0" cy="434.0" r="20" fill="none" stroke="#214DC5" stroke-width="1.5" opacity="0.45"/>
+    <line x1="168.0" y1="404.0" x2="168.0" y2="434.0" stroke="#D7DEEC" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <rect x="72.0" y="284.0" width="192" height="116" rx="12" fill="#F1F5FB" stroke="#D7DEEC" stroke-width="1"/>
+    <text x="168.0" y="322.0" text-anchor="middle" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="24" fill="#214DC5">{{YEAR_1}}</text>
+    <text x="168.0" y="352.0" text-anchor="middle" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#112662">{{MILESTONE_1_TITLE}}</text>
+    <text x="168.0" y="378.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#434C61">{{MILESTONE_1_DESC}}</text>
+  </g>
+  <g id="milestone-2">
+    <circle cx="408.0" cy="434.0" r="11" fill="#214DC5"/>
+    <circle cx="408.0" cy="434.0" r="20" fill="none" stroke="#214DC5" stroke-width="1.5" opacity="0.45"/>
+    <line x1="408.0" y1="468.0" x2="408.0" y2="434.0" stroke="#D7DEEC" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <rect x="312.0" y="468.0" width="192" height="116" rx="12" fill="#F1F5FB" stroke="#D7DEEC" stroke-width="1"/>
+    <text x="408.0" y="506.0" text-anchor="middle" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="24" fill="#214DC5">{{YEAR_2}}</text>
+    <text x="408.0" y="536.0" text-anchor="middle" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#112662">{{MILESTONE_2_TITLE}}</text>
+    <text x="408.0" y="562.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#434C61">{{MILESTONE_2_DESC}}</text>
+  </g>
+  <g id="milestone-3">
+    <circle cx="648.0" cy="434.0" r="11" fill="#214DC5"/>
+    <circle cx="648.0" cy="434.0" r="20" fill="none" stroke="#214DC5" stroke-width="1.5" opacity="0.45"/>
+    <line x1="648.0" y1="404.0" x2="648.0" y2="434.0" stroke="#D7DEEC" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <rect x="552.0" y="284.0" width="192" height="116" rx="12" fill="#F1F5FB" stroke="#D7DEEC" stroke-width="1"/>
+    <text x="648.0" y="322.0" text-anchor="middle" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="24" fill="#214DC5">{{YEAR_3}}</text>
+    <text x="648.0" y="352.0" text-anchor="middle" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#112662">{{MILESTONE_3_TITLE}}</text>
+    <text x="648.0" y="378.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#434C61">{{MILESTONE_3_DESC}}</text>
+  </g>
+  <g id="milestone-4">
+    <circle cx="888.0" cy="434.0" r="11" fill="#214DC5"/>
+    <circle cx="888.0" cy="434.0" r="20" fill="none" stroke="#214DC5" stroke-width="1.5" opacity="0.45"/>
+    <line x1="888.0" y1="468.0" x2="888.0" y2="434.0" stroke="#D7DEEC" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <rect x="792.0" y="468.0" width="192" height="116" rx="12" fill="#F1F5FB" stroke="#D7DEEC" stroke-width="1"/>
+    <text x="888.0" y="506.0" text-anchor="middle" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="24" fill="#214DC5">{{YEAR_4}}</text>
+    <text x="888.0" y="536.0" text-anchor="middle" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#112662">{{MILESTONE_4_TITLE}}</text>
+    <text x="888.0" y="562.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#434C61">{{MILESTONE_4_DESC}}</text>
+  </g>
+  <g id="milestone-5">
+    <circle cx="1128.0" cy="434.0" r="11" fill="#214DC5"/>
+    <circle cx="1128.0" cy="434.0" r="20" fill="none" stroke="#214DC5" stroke-width="1.5" opacity="0.45"/>
+    <line x1="1128.0" y1="404.0" x2="1128.0" y2="434.0" stroke="#D7DEEC" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <rect x="1032.0" y="284.0" width="192" height="116" rx="12" fill="#F1F5FB" stroke="#D7DEEC" stroke-width="1"/>
+    <text x="1128.0" y="322.0" text-anchor="middle" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="24" fill="#214DC5">{{YEAR_5}}</text>
+    <text x="1128.0" y="352.0" text-anchor="middle" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#112662">{{MILESTONE_5_TITLE}}</text>
+    <text x="1128.0" y="378.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#434C61">{{MILESTONE_5_DESC}}</text>
+  </g>
+</svg>

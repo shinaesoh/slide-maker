@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="dabeeo-master" data-pptx-master-name="Dabeeo Intelligence" data-pptx-layout="cover_split" data-pptx-layout-name="Cover (Split)">
+  <!-- Dabeeo Intelligence — 01a Cover variant · left copy, right full-height photo -->
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <image id="layout-split-photo" href="../images/cover-earth.png" x="672" y="190" width="608" height="306" preserveAspectRatio="none" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-split-bar" x="88" y="176" width="72" height="8" fill="#214DC5" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="88 216 528 176">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="88" y="276" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="62" letter-spacing="-3" fill="#214DC5">{{TITLE}}<tspan x="88" dy="72">{{TITLE_2}}</tspan></text>
+  </g>
+  <g id="subtitle-slot" data-pptx-placeholder="subtitle" data-pptx-placeholder-bounds="88 416 528 48">
+    <text id="subtitle-carrier" data-pptx-placeholder-carrier="true" x="88" y="452" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="30" letter-spacing="-0.6" fill="#112662">{{SUBTITLE}}</text>
+  </g>
+  <g id="meta-slot" data-pptx-placeholder="body" data-pptx-placeholder-idx="2" data-pptx-placeholder-bounds="88 520 528 32">
+    <text id="meta-carrier" data-pptx-placeholder-carrier="true" x="88" y="544" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#434C61">{{DATE}}</text>
+  </g>
+</svg>

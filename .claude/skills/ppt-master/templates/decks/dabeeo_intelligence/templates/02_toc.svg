@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="dabeeo-master" data-pptx-master-name="Dabeeo Intelligence" data-pptx-layout="toc" data-pptx-layout-name="Table of Contents">
+  <!-- Dabeeo Intelligence — 02 Table of contents · two-column indexed chapter list -->
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <line id="layout-rail" x1="56.89" y1="0" x2="56.89" y2="538.22" stroke="#BFBFBF" stroke-width="1.333" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <text id="layout-vertical-mark" transform="rotate(90 56.89 561.41)" x="157.82" y="564.74" text-anchor="end" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="10.67" fill="#214DC5" data-pptx-layer="layout" data-pptx-editable="false">DABEEO INTELLIGENCE</text>
+  <text id="layout-footer-note" x="640" y="704.24" text-anchor="middle" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="13.33" fill="#808080" data-pptx-layer="layout" data-pptx-editable="false">Dabeeo Inc. All rights reserved and confidential</text>
+  <image id="layout-footer-logo" href="../images/dabeeo-logo-footer.png" x="1199.67" y="692.82" width="57.78" height="12.85" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="103.17 87.11 1103.83 47.5">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="655.08" y="121.38" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="34.67" font-weight="bold" fill="#214DC5">{{PAGE_TITLE}}</text>
+  </g>
+  <g id="page-number-slot" data-pptx-placeholder="slide-number" data-pptx-placeholder-bounds="28.44 672.71 58 38.33">
+    <text id="page-number-carrier" data-pptx-placeholder-carrier="true" x="57.44" y="704.24" text-anchor="middle" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="13.33" fill="#808080">{{PAGE_NUM}}</text>
+  </g>
+  <g id="toc-rule">
+    <line x1="96" y1="180" x2="1184" y2="180" stroke="#214DC5" stroke-width="2"/>
+  </g>
+  <g id="toc-item-1">
+    <text x="96" y="260" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="40" letter-spacing="-2" fill="#214DC5" opacity="0.28">00</text>
+    <text x="172" y="248" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" fill="#214DC5">{{TOC_ITEM_1_TITLE}}</text>
+    <text x="172" y="274" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="14.67" fill="#434C61">{{TOC_ITEM_1_DESC}}</text>
+    <line x1="96" y1="296" x2="560" y2="296" stroke="#D7DEEC" stroke-width="1"/>
+  </g>
+  <g id="toc-item-2">
+    <text x="656" y="260" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="40" letter-spacing="-2" fill="#214DC5" opacity="0.28">01</text>
+    <text x="732" y="248" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" fill="#214DC5">{{TOC_ITEM_2_TITLE}}</text>
+    <text x="732" y="274" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="14.67" fill="#434C61">{{TOC_ITEM_2_DESC}}</text>
+    <line x1="656" y1="296" x2="1120" y2="296" stroke="#D7DEEC" stroke-width="1"/>
+  </g>
+  <g id="toc-item-3">
+    <text x="96" y="376" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="40" letter-spacing="-2" fill="#214DC5" opacity="0.28">02</text>
+    <text x="172" y="364" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" fill="#214DC5">{{TOC_ITEM_3_TITLE}}</text>
+    <text x="172" y="390" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="14.67" fill="#434C61">{{TOC_ITEM_3_DESC}}</text>
+    <line x1="96" y1="412" x2="560" y2="412" stroke="#D7DEEC" stroke-width="1"/>
+  </g>
+  <g id="toc-item-4">
+    <text x="656" y="376" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="40" letter-spacing="-2" fill="#214DC5" opacity="0.28">03</text>
+    <text x="732" y="364" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" fill="#214DC5">{{TOC_ITEM_4_TITLE}}</text>
+    <text x="732" y="390" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="14.67" fill="#434C61">{{TOC_ITEM_4_DESC}}</text>
+    <line x1="656" y1="412" x2="1120" y2="412" stroke="#D7DEEC" stroke-width="1"/>
+  </g>
+  <g id="toc-item-5">
+    <text x="96" y="492" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="40" letter-spacing="-2" fill="#214DC5" opacity="0.28">04</text>
+    <text x="172" y="480" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" fill="#214DC5">{{TOC_ITEM_5_TITLE}}</text>
+    <text x="172" y="506" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="14.67" fill="#434C61">{{TOC_ITEM_5_DESC}}</text>
+    <line x1="96" y1="528" x2="560" y2="528" stroke="#D7DEEC" stroke-width="1"/>
+  </g>
+  <g id="toc-item-6">
+    <text x="656" y="492" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="40" letter-spacing="-2" fill="#214DC5" opacity="0.28">05</text>
+    <text x="732" y="480" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" fill="#214DC5">{{TOC_ITEM_6_TITLE}}</text>
+    <text x="732" y="506" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="14.67" fill="#434C61">{{TOC_ITEM_6_DESC}}</text>
+    <line x1="656" y1="528" x2="1120" y2="528" stroke="#D7DEEC" stroke-width="1"/>
+  </g>
+</svg>
