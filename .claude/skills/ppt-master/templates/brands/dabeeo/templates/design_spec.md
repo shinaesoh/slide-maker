@@ -9,50 +9,61 @@ primary_color: "#192A67"
 # dabeeo Brand Specification
 
 > Identity-only preset. 고정 페이지 로스터 없음 — 아래 제약 안에서 페이지를 자유롭게 구성합니다.
-> 2026-09 작성. 색상 토큰은 사내 제품 **Dabeeo Change Cloud**의 디자인 토큰
-> (`tailwind.config.js`)에서 가져왔고, 네이비는 공식 로고 워드마크 색상과 대조했습니다.
-> 전사 CI 규정 문서와의 대조는 아직 이루어지지 않았습니다 — 아래 Provenance 표기를 확인하세요.
+> 2026-09 작성. 색상·서체 토큰은 사내 **dabeeo 디자인 자료**(`dabeeo_design_material`)의 `:root`
+> 정의를 그대로 옮긴 것이며, 사내 제품 Dabeeo Change Cloud의 `tailwind.config.js` 및 공식 로고
+> 워드마크 색상과 교차 확인했습니다 — 세 출처가 일치합니다.
 
 ## I. Brand Overview
 
 | Property | Value |
 |---|---|
 | Brand Name | dabeeo (다비오) |
-| Tagline | Reading and Interpreting the Earth |
+| Tagline (EN) | Reading and Interpreting the Earth |
+| Tagline (KO) | 지구를 읽고 해석합니다 |
 | Use Cases | 공공사업 제안서, 사업/회사 소개, 기술 발표, 사내 보고 |
 | Tone | 절제된 기술 신뢰형 — 공공 발주처를 상정한 사실 중심 서술, 장식 최소화 |
 
 ## II. Color Scheme
 
-| Role | HEX | Provenance |
-|---|---|---|
-| primary | #192A67 | product-token — `navy.DEFAULT`. 공식 로고 워드마크와 동일 계열로 확인 |
-| accent | #1E57DC | product-token — `brand.DEFAULT`. 링크·강조·주요 데이터 계열 |
-| secondary | #27C4D5 | product-token — `cyan.DEFAULT`. 보조 강조, 차트 2계열 |
-| surface | #DCE7F4 | product-token — `bluegray.DEFAULT`. 표 헤더·박스 배경 |
-| text | #222222 | product-token — `ink.22`. 본문 잉크 |
-| bg | #FFFFFF | fact — 콘텐츠 캔버스 |
-| cover | #192A67 | inferred — 로고 다크 버전 배경이 네이비 단색이라 표지/간지에 동일 적용 |
+사내 디자인 자료의 `:root` 토큰 전체입니다. 토큰명을 그대로 유지했습니다.
 
-**적용 규칙**: 네이비는 구조색(표지·간지·헤더·타이틀), 브랜드 블루는 강조 1순위(핵심 수치·링크·주요 계열),
-시안은 보조 강조로 **페이지당 블루+시안 2색까지**만. 블루그레이는 면(표 헤더, 박스)에만 쓰고 글자색으로 쓰지 않습니다.
-중성색: 보조 텍스트 `#444444`, 흐린 텍스트 `#777777`, 헤어라인 `#EAEAEA`.
+| Role | Token | HEX | 용도 |
+|---|---|---|---|
+| primary | `--navy` | #192A67 | 구조색 — 표지·간지·헤더·타이틀 |
+| accent | `--blue` | #1E57DC | 강조 1순위 — 핵심 수치, 링크, 주요 데이터 계열 |
+| secondary | `--cyan` | #27C4D5 | 보조 강조 — 차트 2계열, 대비 포인트 |
+| surface | `--bluegray` | #DCE7F4 | 표 헤더·박스 면 |
+| surface-light | `--bluelight` | #F7F9FF | 옅은 강조 면 |
+| deep | `--dark` | #0A1743 | 최심부 네이비 — 풀블리드 표지, 네이비 위 대비 |
+| text | `--text-pri` | #222222 | 본문 잉크 |
+| text-secondary | `--text-sec` | #444444 | 보조 텍스트 |
+| text-muted | `--text-muted` | #777777 | 캡션·주석 |
+| bg | `--bg` | #F4F6FB | 문서 배경 (슬라이드 캔버스는 #FFFFFF) |
 
-> ⚠️ **Provenance 주의**: `product-token`으로 표기된 값은 사내 제품 UI의 디자인 토큰입니다.
-> 전사 CI 규정집에 별도 지정 값이 있다면 그쪽이 우선하며, 확인 후 이 표를 갱신하고
-> `brands_index.json`의 `primary_color`도 함께 고쳐야 합니다.
+**Provenance**: 위 10개 값은 전부 사내 디자인 자료의 `:root` 정의 원문이며 추정값이 아닙니다.
+`--navy` · `--blue` · `--cyan` · `--bluegray`는 Dabeeo Change Cloud 제품 토큰과도 일치합니다.
+
+**적용 규칙**: 네이비는 구조, 블루는 강조 1순위, 시안은 보조 강조로 **페이지당 블루+시안 2색까지**만.
+블루그레이·블루라이트는 면에만 쓰고 글자색으로 쓰지 않습니다. 헤어라인 `#EAEAEA`.
 
 ## III. Typography
 
 | Role | Family | Weight |
 |---|---|---|
+| display | Paperlogy (fallback: Georgia, serif) | 700 |
 | title | Pretendard | 700 (SemiBold 600까지 허용) |
 | body | Pretendard | 400 |
 | kpi/label | Pretendard | 600 |
 
-저장소 전역 Pretendard 락을 따릅니다 — 위계는 서체를 바꾸지 않고 **굵기와 크기**로만 만듭니다.
+본문·UI는 Pretendard입니다 — 사내 자료의 `--font` 토큰이 `'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif`이고,
+이 저장소의 전역 Pretendard 락과도 일치합니다. 위계는 서체를 바꾸지 않고 **굵기와 크기**로만 만듭니다.
 타이틀 자간 -0.02em, 본문 -0.01em. 숫자는 가능한 경우 tabular figures.
 영문 고유명사 `dabeeo`는 **항상 소문자**로 표기합니다.
+
+> ⚠️ **Paperlogy는 이 저장소에 번들되어 있지 않습니다.** 사내 자료에서 "지구를 읽고 해석합니다",
+> "Reading the Earth" 같은 대형 문구에만 쓰이는 디스플레이 서체입니다. 쓰려면 (1) 덱을 여는 PC마다
+> 로컬 설치가 필요하고, (2) 재배포 가능 여부를 라이선스에서 확인해야 합니다 — 저는 이 서체의
+> 라이선스 조건을 확인하지 못했습니다. 확인 전까지는 **표지 대형 문구도 Pretendard 700으로 대체**하세요.
 
 ## IV. Logo
 
