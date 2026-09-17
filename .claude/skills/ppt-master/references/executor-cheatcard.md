@@ -70,8 +70,36 @@
 - Once on the whole project at the end (full run, no `--pages`) — this sweep owns the deck-wide contract checks.
 - Fix every `error`. Disposition each `text geometry:` warning (fix, or state the intended balanced break). Clean block = silent pass.
 
-## 9. Then export (SKILL.md Step 7 owns it)
+## 9. Native table marker (HARD — applies on this route too)
+A **pure text-grid data table** carries its marker **at draw time**, never bolted on later.
+The drawn `rect`/`text` stays inside the group as the fallback; the metadata is what
+becomes the real PowerPoint table.
+
+```xml
+<g id="p04-spec" data-pptx-native="table">
+  <metadata data-pptx-native="table">
+  { "x":80, "y":300, "width":1120, "height":296,
+    "columns":["구분","실내지도","광역 실외"],
+    "rows":[["최대 면적","약 100만 ㎡","200만 ㎡ 이상"]],
+    "column_widths":[190,465,465], "row_heights":[48,50],
+    "header_rows":1, "strict_grid":true,
+    "style":{"font_family":"Pretendard","font_size":18,"band_row":true} }
+  </metadata>
+  <!-- drawn rect/text fallback goes here -->
+</g>
+```
+
+- **Every visible cell value MUST also exist in `columns` / `rows`** — native export discards the fallback text.
+- Multi-line cells use `paragraphs`, not `\n`: `{"paragraphs":["JSON · GEOJSON","SVG · JPG"]}`
+- Header / label cells take `{"text":…,"bold":true,"fill":"#…","color":"#…"}`.
+- Full schema (merges, per-cell borders, charts): [`native-objects.md`](./native-objects.md) §3.
+
+> Skipping the marker is the most common way a deck ships a table as loose boxes:
+> the page *looks* right, but nothing in PowerPoint is an actual table.
+
+## 10. Then export (SKILL.md Step 7 owns it)
 - No notes → skip 7.1. finalize (7.2) deferred by default. Export: `python3 ${SKILL_DIR}/scripts/svg_to_pptx.py <project>`. Verify: `verify_deck.py <project>` + `unzip -t`, then read the `_pptx_render/<stem>-grid.png` contact sheet it renders. If it is suspicious, recommend `verify-pptx-export` and wait for explicit approval; never auto-run it. Add `--no-render` only while iterating; the final run renders.
+- **If any page carries a `data-pptx-native` marker, the export MUST use `--native-objects`** (SKILL.md Step 7.3 hard rule). Without the flag the marker stays dormant and the fallback boxes ship silently.
 
 ---
 
