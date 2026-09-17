@@ -71,16 +71,16 @@ primary_color: "#192A67"
 ## IV. Logo
 
 - 파일 (이 design_spec.md 기준 상대경로):
-  - `../images/dabeeo-wordmark-navy.png` — 흰 배경용 기본 락업
-  - `../images/dabeeo-wordmark-white.png` — 네이비 등 어두운 면 위
-  - `../images/dabeeo-lockup-navy.png` — 워드마크 + 태그라인, 흰 배경용
-  - `../images/dabeeo-lockup-white.png` — 워드마크 + 태그라인, 어두운 면 위
+  - `../images/dabeeo-wordmark-navy.png` (1531×342) — 흰 배경용 기본
+  - `../images/dabeeo-wordmark-white.png` (1531×342) — 네이비 등 어두운 면 위
+  - `../images/dabeeo-lockup-navy.png` — 워드마크 + 태그라인, 흰 배경용 **(미포함)**
+  - `../images/dabeeo-lockup-white.png` — 워드마크 + 태그라인, 어두운 면 위 **(미포함)**
 - 사용: 표지는 태그라인 포함 락업, 본문 페이지는 워드마크만 우상단 소형 배치
 - 여백: 워드마크 높이의 0.5배 이상을 사방 클리어스페이스로 확보
 - 금지: 임의 색상 변경, 세로 배치, 그림자·외곽선 추가, 비율 왜곡
 
-> ⚠️ **이미지 파일 미포함 상태입니다.** 필요한 파일과 규격은 `../images/README.md`를 보세요.
-> 파일을 넣기 전까지 로고가 들어가는 레이아웃은 자리만 잡고 비워 둡니다.
+> 락업 2종은 아직 없습니다. 그때까지 표지는 **워드마크 + 태그라인을 텍스트로 조판**해 대체하고,
+> 태그라인은 Paperlogy 700으로 둡니다. 자세한 내용은 `../images/README.md` 참조.
 
 ## V. Voice & Tone
 
