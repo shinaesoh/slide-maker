@@ -63,10 +63,27 @@ primary_color: "#192A67"
 **Paperlogy**는 사내 자료에서 "지구를 읽고 해석합니다", "Reading the Earth" 같은 **대형 문구에만** 쓰이는
 디스플레이 서체입니다. 본문·불릿·표에는 쓰지 마세요 — 그 자리는 Pretendard입니다.
 
-- 번들 위치: `.claude/skills/ppt-master/assets/fonts/Paperlogy/` (Regular 400 · SemiBold 600 · Bold 700)
+- 번들 위치: `.claude/skills/ppt-master/assets/fonts/Paperlogy/` — Thin 100 ~ Black 900 전 9종
 - 라이선스: SIL OFL 1.1, Copyright © 2024 PT& — 폰트 파일 내 name table로 확인. 같은 폴더의 `LICENSE.txt` 참조
 - PPTX는 폰트를 내장하지 않으므로, **덱을 여는 PC마다 Paperlogy 설치가 필요합니다.** 미설치 환경에서는
   Georgia/serif로 대체돼 인상이 크게 달라지므로, 외부 배포용 덱은 Pretendard 700으로 통일하는 편이 안전합니다
+
+> ⚠️ **다국어 덱에는 Paperlogy를 쓰지 마세요.** 한국어와 기본 라틴 문자만 지원합니다.
+> 굵기를 9종 전부 번들했지만 굵기와 언어 커버리지는 무관합니다 — 9종 모두 같은 글리프 세트입니다.
+>
+> | 문자 | Paperlogy | Pretendard |
+> |---|---|---|
+> | 한글 음절 | 100% | 100% |
+> | 라틴 기본(영어) | 100% | 100% |
+> | 라틴 확장-A (폴란드·체코·터키) | 7% | 99% |
+> | 라틴 확장-B (베트남 등) | 1% | 99% |
+> | 키릴 (러시아) | 0% | 99% |
+> | 그리스 | 0% | 84% |
+> | 히라가나·가타카나 (일본) | 0% | 94~98% |
+> | CJK 한자 (중국) | 0% | 0% |
+>
+> 영어 외 언어가 섞이면 **Pretendard로 조판**하세요. 중국어·일본어 한자는 두 폰트 모두 미지원이라
+> 별도 폰트(Noto Sans CJK 등)가 필요합니다.
 
 ## IV. Logo
 

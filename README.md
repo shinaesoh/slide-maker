@@ -65,7 +65,9 @@ projects/<프로젝트>/svg_final/                        ← 브라우저로 �
 
 모든 덱은 **Pretendard**(SIL OFL) 한 가족으로 통일됩니다. 위계는 폰트를 바꾸는 게 아니라 굵기(Medium/SemiBold/Bold)와 크기로 만듭니다. 폰트 파일은 [`.claude/skills/ppt-master/assets/fonts/Pretendard/`](.claude/skills/ppt-master/assets/fonts/Pretendard/)에 번들되어 있습니다.
 
-**단 하나의 예외** — `dabeeo` 브랜드 프리셋은 표지 대형 문구에 한해 **Paperlogy**(SIL OFL)를 씁니다. 본문·불릿·표는 그대로 Pretendard입니다. 폰트는 [`assets/fonts/Paperlogy/`](.claude/skills/ppt-master/assets/fonts/Paperlogy/)에 Regular·SemiBold·Bold 3종이 번들되어 있습니다.
+**단 하나의 예외** — `dabeeo` 브랜드 프리셋은 표지 대형 문구에 한해 **Paperlogy**(SIL OFL)를 씁니다. 본문·불릿·표는 그대로 Pretendard입니다. 폰트는 [`assets/fonts/Paperlogy/`](.claude/skills/ppt-master/assets/fonts/Paperlogy/)에 Thin~Black 9종이 번들되어 있습니다.
+
+> Paperlogy는 **한국어와 기본 라틴 문자만** 지원합니다(키릴·그리스·일본어 0%). 영어 외 언어가 섞인 덱은 Pretendard로 조판하세요.
 
 > PPTX는 폰트를 내장하지 않으므로, 만든 덱을 **다른 컴퓨터에서 열 때는 그쪽에도 Pretendard 설치**가 필요합니다(Paperlogy를 쓴 덱이면 그것도 함께).
 
