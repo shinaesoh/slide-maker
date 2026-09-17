@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="dabeeo-master" data-pptx-master-name="Dabeeo Intelligence" data-pptx-layout="content_full" data-pptx-layout-name="Content (Full Width)">
+  <!-- Dabeeo Intelligence — 03k Layered architecture · four stacked bands with module chips -->
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <line id="layout-rail" x1="56.89" y1="0" x2="56.89" y2="538.22" stroke="#BFBFBF" stroke-width="1.333" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <text id="layout-vertical-mark" transform="rotate(90 56.89 561.41)" x="157.82" y="564.74" text-anchor="end" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="10.67" fill="#214DC5" data-pptx-layer="layout" data-pptx-editable="false">DABEEO INTELLIGENCE</text>
+  <text id="layout-footer-note" x="640" y="704.24" text-anchor="middle" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="13.33" fill="#808080" data-pptx-layer="layout" data-pptx-editable="false">Dabeeo Inc. All rights reserved and confidential</text>
+  <image id="layout-footer-logo" href="../images/dabeeo-logo-footer.png" x="1199.67" y="692.82" width="57.78" height="12.85" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <g id="eyebrow-slot" data-pptx-placeholder="body" data-pptx-placeholder-idx="1" data-pptx-placeholder-bounds="103.17 45.56 1103.83 35.66">
+    <text id="eyebrow-carrier" data-pptx-placeholder-carrier="true" x="655.08" y="81.83" text-anchor="middle" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="21.33" fill="#00B0F0">{{EYEBROW}}</text>
+  </g>
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="103.17 87.11 1103.83 47.5">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="655.08" y="121.38" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="34.67" font-weight="bold" fill="#214DC5">{{PAGE_TITLE}}</text>
+  </g>
+  <g id="lead-slot" data-pptx-placeholder="body" data-pptx-placeholder-idx="2" data-pptx-placeholder-bounds="103.17 140.83 1103.83 68">
+    <text id="lead-carrier" data-pptx-placeholder-carrier="true" x="655.08" y="167.55" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18.67" fill="#434C61">{{LEAD}}<tspan x="655.08" dy="23.15">{{LEAD_2}}</tspan></text>
+  </g>
+  <g id="page-number-slot" data-pptx-placeholder="slide-number" data-pptx-placeholder-bounds="28.44 672.71 58 38.33">
+    <text id="page-number-carrier" data-pptx-placeholder-carrier="true" x="57.44" y="704.24" text-anchor="middle" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="13.33" fill="#808080">{{PAGE_NUM}}</text>
+  </g>
+  <g id="chapter-mark">
+    <rect x="0" y="67.11" width="56.89" height="44.21" fill="#214DC5"/>
+    <text x="28.44" y="109.22" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="26.67" font-weight="bold" fill="#FFFFFF">03</text>
+    <text x="1257.44" y="32.21" text-anchor="end" font-family="'Pretendard Light', Pretendard, 'Malgun Gothic', sans-serif" font-size="12" fill="#253062">03 핵심 기술 및 제품</text>
+  </g>
+  <g id="layer-1">
+    <rect x="348.0" y="240.0" width="852" height="80" rx="12" fill="#214DC5" opacity="0.95"/>
+    <text x="88.0" y="288.0" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#214DC5">{{LAYER_1_TITLE}}</text>
+    <rect x="372.0" y="256.0" width="184" height="48" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <text x="464.0" y="286.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#112662">{{LAYER_1_ITEM_1}}</text>
+    <rect x="580.0" y="256.0" width="184" height="48" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <text x="672.0" y="286.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#112662">{{LAYER_1_ITEM_2}}</text>
+    <rect x="788.0" y="256.0" width="184" height="48" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <text x="880.0" y="286.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#112662">{{LAYER_1_ITEM_3}}</text>
+    <rect x="996.0" y="256.0" width="184" height="48" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <text x="1088.0" y="286.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#112662">{{LAYER_1_ITEM_4}}</text>
+  </g>
+  <g id="layer-2">
+    <rect x="348.0" y="340.0" width="852" height="80" rx="12" fill="#214DC5" opacity="0.7"/>
+    <text x="88.0" y="388.0" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#214DC5">{{LAYER_2_TITLE}}</text>
+    <rect x="372.0" y="356.0" width="184" height="48" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <text x="464.0" y="386.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#112662">{{LAYER_2_ITEM_1}}</text>
+    <rect x="580.0" y="356.0" width="184" height="48" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <text x="672.0" y="386.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#112662">{{LAYER_2_ITEM_2}}</text>
+    <rect x="788.0" y="356.0" width="184" height="48" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <text x="880.0" y="386.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#112662">{{LAYER_2_ITEM_3}}</text>
+    <rect x="996.0" y="356.0" width="184" height="48" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <text x="1088.0" y="386.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#112662">{{LAYER_2_ITEM_4}}</text>
+  </g>
+  <g id="layer-3">
+    <rect x="348.0" y="440.0" width="852" height="80" rx="12" fill="#34A8FD" opacity="0.85"/>
+    <text x="88.0" y="488.0" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#214DC5">{{LAYER_3_TITLE}}</text>
+    <rect x="372.0" y="456.0" width="184" height="48" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <text x="464.0" y="486.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#112662">{{LAYER_3_ITEM_1}}</text>
+    <rect x="580.0" y="456.0" width="184" height="48" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <text x="672.0" y="486.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#112662">{{LAYER_3_ITEM_2}}</text>
+    <rect x="788.0" y="456.0" width="184" height="48" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <text x="880.0" y="486.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#112662">{{LAYER_3_ITEM_3}}</text>
+    <rect x="996.0" y="456.0" width="184" height="48" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <text x="1088.0" y="486.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#112662">{{LAYER_3_ITEM_4}}</text>
+  </g>
+  <g id="layer-4">
+    <rect x="348.0" y="540.0" width="852" height="80" rx="12" fill="#434C61" opacity="0.85"/>
+    <text x="88.0" y="588.0" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#214DC5">{{LAYER_4_TITLE}}</text>
+    <rect x="372.0" y="556.0" width="184" height="48" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <text x="464.0" y="586.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#112662">{{LAYER_4_ITEM_1}}</text>
+    <rect x="580.0" y="556.0" width="184" height="48" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <text x="672.0" y="586.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#112662">{{LAYER_4_ITEM_2}}</text>
+    <rect x="788.0" y="556.0" width="184" height="48" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <text x="880.0" y="586.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#112662">{{LAYER_4_ITEM_3}}</text>
+    <rect x="996.0" y="556.0" width="184" height="48" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <text x="1088.0" y="586.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13.5" fill="#112662">{{LAYER_4_ITEM_4}}</text>
+  </g>
+</svg>

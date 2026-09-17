@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="dabeeo-master" data-pptx-master-name="Dabeeo Intelligence" data-pptx-layout="content_full" data-pptx-layout-name="Content (Full Width)">
+  <!-- Dabeeo Intelligence — 03s Roadmap · three swimlane tracks over a six-phase scale (vector only) -->
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <line id="layout-rail" x1="56.89" y1="0" x2="56.89" y2="538.22" stroke="#BFBFBF" stroke-width="1.333" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <text id="layout-vertical-mark" transform="rotate(90 56.89 561.41)" x="157.82" y="564.74" text-anchor="end" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="10.67" fill="#214DC5" data-pptx-layer="layout" data-pptx-editable="false">DABEEO INTELLIGENCE</text>
+  <text id="layout-footer-note" x="640" y="704.24" text-anchor="middle" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="13.33" fill="#808080" data-pptx-layer="layout" data-pptx-editable="false">Dabeeo Inc. All rights reserved and confidential</text>
+  <image id="layout-footer-logo" href="../images/dabeeo-logo-footer.png" x="1199.67" y="692.82" width="57.78" height="12.85" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <g id="eyebrow-slot" data-pptx-placeholder="body" data-pptx-placeholder-idx="1" data-pptx-placeholder-bounds="103.17 45.56 1103.83 35.66">
+    <text id="eyebrow-carrier" data-pptx-placeholder-carrier="true" x="655.08" y="81.83" text-anchor="middle" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="21.33" fill="#00B0F0">{{EYEBROW}}</text>
+  </g>
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="103.17 87.11 1103.83 47.5">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="655.08" y="121.38" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="34.67" font-weight="bold" fill="#214DC5">{{PAGE_TITLE}}</text>
+  </g>
+  <g id="lead-slot" data-pptx-placeholder="body" data-pptx-placeholder-idx="2" data-pptx-placeholder-bounds="103.17 140.83 1103.83 68">
+    <text id="lead-carrier" data-pptx-placeholder-carrier="true" x="655.08" y="167.55" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18.67" fill="#434C61">{{LEAD}}<tspan x="655.08" dy="23.15">{{LEAD_2}}</tspan></text>
+  </g>
+  <g id="page-number-slot" data-pptx-placeholder="slide-number" data-pptx-placeholder-bounds="28.44 672.71 58 38.33">
+    <text id="page-number-carrier" data-pptx-placeholder-carrier="true" x="57.44" y="704.24" text-anchor="middle" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="13.33" fill="#808080">{{PAGE_NUM}}</text>
+  </g>
+  <g id="chapter-mark">
+    <rect x="0" y="67.11" width="56.89" height="44.21" fill="#214DC5"/>
+    <text x="28.44" y="109.22" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="26.67" font-weight="bold" fill="#FFFFFF">03</text>
+    <text x="1257.44" y="32.21" text-anchor="end" font-family="'Pretendard Light', Pretendard, 'Malgun Gothic', sans-serif" font-size="12" fill="#253062">03 핵심 기술 및 제품</text>
+  </g>
+  <g id="roadmap-scale">
+    <line x1="300.0" y1="258.0" x2="300.0" y2="554.0" stroke="#D7DEEC" stroke-width="1" stroke-dasharray="4 5"/>
+    <text x="373.3" y="246.0" text-anchor="middle" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#434C61">{{PHASE_1}}</text>
+    <line x1="446.7" y1="258.0" x2="446.7" y2="554.0" stroke="#D7DEEC" stroke-width="1" stroke-dasharray="4 5"/>
+    <text x="520.0" y="246.0" text-anchor="middle" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#434C61">{{PHASE_2}}</text>
+    <line x1="593.3" y1="258.0" x2="593.3" y2="554.0" stroke="#D7DEEC" stroke-width="1" stroke-dasharray="4 5"/>
+    <text x="666.7" y="246.0" text-anchor="middle" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#434C61">{{PHASE_3}}</text>
+    <line x1="740.0" y1="258.0" x2="740.0" y2="554.0" stroke="#D7DEEC" stroke-width="1" stroke-dasharray="4 5"/>
+    <text x="813.3" y="246.0" text-anchor="middle" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#434C61">{{PHASE_4}}</text>
+    <line x1="886.7" y1="258.0" x2="886.7" y2="554.0" stroke="#D7DEEC" stroke-width="1" stroke-dasharray="4 5"/>
+    <text x="960.0" y="246.0" text-anchor="middle" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#434C61">{{PHASE_5}}</text>
+    <line x1="1033.3" y1="258.0" x2="1033.3" y2="554.0" stroke="#D7DEEC" stroke-width="1" stroke-dasharray="4 5"/>
+    <text x="1106.7" y="246.0" text-anchor="middle" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#434C61">{{PHASE_6}}</text>
+    <line x1="1180.0" y1="258.0" x2="1180.0" y2="554.0" stroke="#D7DEEC" stroke-width="1" stroke-dasharray="4 5"/>
+  </g>
+  <g id="roadmap-track-1">
+    <text x="88.0" y="328.0" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#214DC5">{{TRACK_1}}</text>
+    <rect x="300.0" y="302.0" width="293.3" height="52" rx="10" fill="#214DC5" opacity="0.9"/>
+    <text x="446.7" y="334.0" text-anchor="middle" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#FFFFFF">{{TRACK_1_ITEM_1}}</text>
+    <rect x="740.0" y="302.0" width="146.7" height="52" rx="10" fill="#214DC5" opacity="0.9"/>
+    <text x="813.3" y="334.0" text-anchor="middle" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#FFFFFF">{{TRACK_1_ITEM_2}}</text>
+  </g>
+  <g id="roadmap-track-2">
+    <text x="88.0" y="424.0" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#214DC5">{{TRACK_2}}</text>
+    <rect x="446.7" y="398.0" width="293.3" height="52" rx="10" fill="#34A8FD" opacity="0.9"/>
+    <text x="593.3" y="430.0" text-anchor="middle" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#FFFFFF">{{TRACK_2_ITEM_1}}</text>
+  </g>
+  <g id="roadmap-track-3">
+    <text x="88.0" y="520.0" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#214DC5">{{TRACK_3}}</text>
+    <rect x="593.3" y="494.0" width="293.3" height="52" rx="10" fill="#00B0F0" opacity="0.9"/>
+    <text x="740.0" y="526.0" text-anchor="middle" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#FFFFFF">{{TRACK_3_ITEM_1}}</text>
+    <rect x="1033.3" y="494.0" width="146.7" height="52" rx="10" fill="#00B0F0" opacity="0.9"/>
+    <text x="1106.7" y="526.0" text-anchor="middle" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#FFFFFF">{{TRACK_3_ITEM_2}}</text>
+  </g>
+  <g id="roadmap-note">
+    <rect x="88.0" y="620.0" width="1112.0" height="72" rx="12" fill="#F1F5FB" stroke="#D7DEEC" stroke-width="1"/>
+    <rect x="88.0" y="620.0" width="6" height="72" rx="3" fill="#00B0F0"/>
+    <text x="120.0" y="652.0" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#214DC5">{{ROADMAP_NOTE_TITLE}}</text>
+    <text x="120.0" y="678.0" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#434C61">{{ROADMAP_NOTE_BODY}}</text>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="dabeeo-master" data-pptx-master-name="Dabeeo Intelligence" data-pptx-layout="content_full" data-pptx-layout-name="Content (Full Width)">
+  <!-- Dabeeo Intelligence — 03a Fact table · left key/value grid, right brand statement panel -->
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <line id="layout-rail" x1="56.89" y1="0" x2="56.89" y2="538.22" stroke="#BFBFBF" stroke-width="1.333" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <text id="layout-vertical-mark" transform="rotate(90 56.89 561.41)" x="157.82" y="564.74" text-anchor="end" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="10.67" fill="#214DC5" data-pptx-layer="layout" data-pptx-editable="false">DABEEO INTELLIGENCE</text>
+  <text id="layout-footer-note" x="640" y="704.24" text-anchor="middle" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="13.33" fill="#808080" data-pptx-layer="layout" data-pptx-editable="false">Dabeeo Inc. All rights reserved and confidential</text>
+  <image id="layout-footer-logo" href="../images/dabeeo-logo-footer.png" x="1199.67" y="692.82" width="57.78" height="12.85" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <g id="eyebrow-slot" data-pptx-placeholder="body" data-pptx-placeholder-idx="1" data-pptx-placeholder-bounds="103.17 45.56 1103.83 35.66">
+    <text id="eyebrow-carrier" data-pptx-placeholder-carrier="true" x="655.08" y="81.83" text-anchor="middle" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="21.33" fill="#00B0F0">{{EYEBROW}}</text>
+  </g>
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="103.17 87.11 1103.83 47.5">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="655.08" y="121.38" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="34.67" font-weight="bold" fill="#214DC5">{{PAGE_TITLE}}</text>
+  </g>
+  <g id="lead-slot" data-pptx-placeholder="body" data-pptx-placeholder-idx="2" data-pptx-placeholder-bounds="103.17 140.83 1103.83 68">
+    <text id="lead-carrier" data-pptx-placeholder-carrier="true" x="655.08" y="167.55" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18.67" fill="#434C61">{{LEAD}}<tspan x="655.08" dy="23.15">{{LEAD_2}}</tspan></text>
+  </g>
+  <g id="page-number-slot" data-pptx-placeholder="slide-number" data-pptx-placeholder-bounds="28.44 672.71 58 38.33">
+    <text id="page-number-carrier" data-pptx-placeholder-carrier="true" x="57.44" y="704.24" text-anchor="middle" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="13.33" fill="#808080">{{PAGE_NUM}}</text>
+  </g>
+  <g id="chapter-mark">
+    <rect x="0" y="67.11" width="56.89" height="44.21" fill="#214DC5"/>
+    <text x="28.44" y="109.22" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="26.67" font-weight="bold" fill="#FFFFFF">03</text>
+    <text x="1257.44" y="32.21" text-anchor="end" font-family="'Pretendard Light', Pretendard, 'Malgun Gothic', sans-serif" font-size="12" fill="#253062">03 핵심 기술 및 제품</text>
+  </g>
+  <g id="fact-table">
+    <rect x="88.0" y="224.0" width="600" height="440.0" rx="14" fill="#F1F5FB" stroke="#D7DEEC" stroke-width="1"/>
+    <text x="116.0" y="276.0" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#214DC5">회사명</text>
+    <text x="256.0" y="276.0" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#434C61">{{FACT_1}}</text>
+    <line x1="116.0" y1="298.0" x2="660.0" y2="298.0" stroke="#D7DEEC" stroke-width="1"/>
+    <text x="116.0" y="340.0" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#214DC5">대표이사</text>
+    <text x="256.0" y="340.0" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#434C61">{{FACT_2}}</text>
+    <line x1="116.0" y1="362.0" x2="660.0" y2="362.0" stroke="#D7DEEC" stroke-width="1"/>
+    <text x="116.0" y="404.0" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#214DC5">사업 분야</text>
+    <text x="256.0" y="404.0" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#434C61">{{FACT_3}}</text>
+    <line x1="116.0" y1="426.0" x2="660.0" y2="426.0" stroke="#D7DEEC" stroke-width="1"/>
+    <text x="116.0" y="468.0" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#214DC5">주요 제품</text>
+    <text x="256.0" y="468.0" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#434C61">{{FACT_4}}</text>
+    <line x1="116.0" y1="490.0" x2="660.0" y2="490.0" stroke="#D7DEEC" stroke-width="1"/>
+    <text x="116.0" y="532.0" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#214DC5">주소</text>
+    <text x="256.0" y="532.0" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#434C61">{{FACT_5}}</text>
+    <line x1="116.0" y1="554.0" x2="660.0" y2="554.0" stroke="#D7DEEC" stroke-width="1"/>
+    <text x="116.0" y="596.0" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#214DC5">홈페이지</text>
+    <text x="256.0" y="596.0" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#434C61">{{FACT_6}}</text>
+    <line x1="116.0" y1="618.0" x2="660.0" y2="618.0" stroke="#D7DEEC" stroke-width="1"/>
+  </g>
+  <g id="fact-statement">
+    <rect x="728" y="224.0" width="472" height="440.0" rx="14" fill="#214DC5"/>
+    <text x="768" y="344.0" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="34" letter-spacing="-1.4" fill="#FFFFFF">{{STATEMENT}}<tspan x="768" dy="44">{{STATEMENT_2}}</tspan><tspan x="768" dy="44">{{STATEMENT_3}}</tspan></text>
+    <rect x="768" y="524.0" width="64" height="5" fill="#34A8FD"/>
+    <text x="768" y="572.0" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#FFFFFF" opacity="0.86">{{STATEMENT_NOTE}}</text>
+  </g>
+</svg>

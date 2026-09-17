@@ -10,6 +10,12 @@
       "delivery_purpose": "balanced"
     }
   },
+  "dabeeo_intelligence": {
+    "summary": "다비오 인텔리전스 기업소개 스타일 — 위성·공간 데이터 AI 기업 브리핑, 기술 신뢰성 설명, 사업화 현황 보고",
+    "canvas_format": "ppt169",
+    "page_count": 28,
+    "primary_color": "#214DC5"
+  },
   "jangpm": {
     "summary": "Korean editorial lecture / report decks — 강의, 워크숍, 전략 브리핑, 분석 리포트",
     "canvas_format": "ppt169",

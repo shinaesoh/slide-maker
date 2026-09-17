@@ -783,6 +783,21 @@ python3 ${SKILL_DIR}/scripts/finalize_svg.py <project_path>
 This step writes self-contained visual-preview SVGs to `svg_final/`. Those files may be opened directly or manually inserted into PowerPoint as SVG pictures. Default raster handling embeds images at the rendered SVG size budget (`--image-scale 2`, `--max-dimension 2560`); opaque PNG photos may be written as JPEG, and transparent assets remain PNG. The existing EMF/WMF exception still applies: Office vector assets stay externally referenced for lossless native-PPTX passthrough, so the native PPTX remains the source of truth for pages that use them. Use `--no-compress` or a higher `--max-dimension` only for diagnostic / high-fidelity SVG previews.
 
 **Step 7.3** — Export PPTX (embeds speaker notes when `notes/` files exist; no-notes decks export without notes):
+
+⛔ **Hard rule — marker-driven export.** Before exporting, check whether the deck carries any native marker:
+
+```bash
+grep -l "data-pptx-native" <project_path>/svg_output/*.svg
+```
+
+If **any** file matches, the export MUST run with `--native-objects`. A marker is dormant in the default export: the run succeeds, prints no warning, and silently ships the drawn `rect`/`text` fallback instead of a real PowerPoint table/chart object — so the page looks correct while nothing in it is editable as a table. After exporting, confirm the objects actually landed:
+
+```bash
+python3 -c "from pptx import Presentation; p=Presentation('<exported.pptx>'); print([(i+1, len(sh.table.rows), len(sh.table.columns)) for i,s in enumerate(p.slides) for sh in s.shapes if sh.has_table])"
+```
+
+An empty list `[]` on a deck that has markers means the flag was missed — re-export. (The trade-off the flag carries — native objects normalize some styling the SVG fallback expressed exactly — is described in [`native-objects.md`](references/native-objects.md) §3.)
+
 ```bash
 python3 ${SKILL_DIR}/scripts/svg_to_pptx.py <project_path>
 # Output (default-flow mode):

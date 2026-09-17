@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="dabeeo-master" data-pptx-master-name="Dabeeo Intelligence" data-pptx-layout="content_full" data-pptx-layout-name="Content (Full Width)">
+  <!-- Dabeeo Intelligence — 03o Benchmark chart · native grouped-column marker with value labels -->
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <line id="layout-rail" x1="56.89" y1="0" x2="56.89" y2="538.22" stroke="#BFBFBF" stroke-width="1.333" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <text id="layout-vertical-mark" transform="rotate(90 56.89 561.41)" x="157.82" y="564.74" text-anchor="end" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="10.67" fill="#214DC5" data-pptx-layer="layout" data-pptx-editable="false">DABEEO INTELLIGENCE</text>
+  <text id="layout-footer-note" x="640" y="704.24" text-anchor="middle" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="13.33" fill="#808080" data-pptx-layer="layout" data-pptx-editable="false">Dabeeo Inc. All rights reserved and confidential</text>
+  <image id="layout-footer-logo" href="../images/dabeeo-logo-footer.png" x="1199.67" y="692.82" width="57.78" height="12.85" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <g id="eyebrow-slot" data-pptx-placeholder="body" data-pptx-placeholder-idx="1" data-pptx-placeholder-bounds="103.17 45.56 1103.83 35.66">
+    <text id="eyebrow-carrier" data-pptx-placeholder-carrier="true" x="655.08" y="81.83" text-anchor="middle" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="21.33" fill="#00B0F0">{{EYEBROW}}</text>
+  </g>
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="103.17 87.11 1103.83 47.5">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="655.08" y="121.38" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="34.67" font-weight="bold" fill="#214DC5">{{PAGE_TITLE}}</text>
+  </g>
+  <g id="lead-slot" data-pptx-placeholder="body" data-pptx-placeholder-idx="2" data-pptx-placeholder-bounds="103.17 140.83 1103.83 68">
+    <text id="lead-carrier" data-pptx-placeholder-carrier="true" x="655.08" y="167.55" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18.67" fill="#434C61">{{LEAD}}<tspan x="655.08" dy="23.15">{{LEAD_2}}</tspan></text>
+  </g>
+  <g id="page-number-slot" data-pptx-placeholder="slide-number" data-pptx-placeholder-bounds="28.44 672.71 58 38.33">
+    <text id="page-number-carrier" data-pptx-placeholder-carrier="true" x="57.44" y="704.24" text-anchor="middle" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="13.33" fill="#808080">{{PAGE_NUM}}</text>
+  </g>
+  <g id="chapter-mark">
+    <rect x="0" y="67.11" width="56.89" height="44.21" fill="#214DC5"/>
+    <text x="28.44" y="109.22" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="26.67" font-weight="bold" fill="#FFFFFF">03</text>
+    <text x="1257.44" y="32.21" text-anchor="end" font-family="'Pretendard Light', Pretendard, 'Malgun Gothic', sans-serif" font-size="12" fill="#253062">03 핵심 기술 및 제품</text>
+  </g>
+  <g id="benchmark-chart" data-pptx-native="chart">
+    <metadata data-pptx-native="chart">{"x": 208.0, "y": 296.0, "width": 944.0, "height": 264.0, "type": "column", "categories": ["{{BAR_CAT_1}}", "{{BAR_CAT_2}}", "{{BAR_CAT_3}}", "{{BAR_CAT_4}}"], "series": [{"name": "다비오", "values": [62, 74, 81, 93]}, {"name": "업계 평균", "values": [48, 55, 67, 72]}], "data_labels": {"show_value": true, "position": "outside_end", "font_size": 13}, "axes": {"category": {"kind": "text"}, "value": {"kind": "value", "minimum": 0, "maximum": 100, "major_gridlines": true}}, "style": {"colors": ["#214DC5", "#AFC0E8"]}}</metadata>
+    <line x1="208.0" y1="560.0" x2="1152.0" y2="560.0" stroke="#D7DEEC" stroke-width="1"/>
+    <text x="194.0" y="565.0" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#8C97AD">0</text>
+    <line x1="208.0" y1="494.0" x2="1152.0" y2="494.0" stroke="#D7DEEC" stroke-width="1"/>
+    <text x="194.0" y="499.0" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#8C97AD">25</text>
+    <line x1="208.0" y1="428.0" x2="1152.0" y2="428.0" stroke="#D7DEEC" stroke-width="1"/>
+    <text x="194.0" y="433.0" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#8C97AD">50</text>
+    <line x1="208.0" y1="362.0" x2="1152.0" y2="362.0" stroke="#D7DEEC" stroke-width="1"/>
+    <text x="194.0" y="367.0" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#8C97AD">75</text>
+    <line x1="208.0" y1="296.0" x2="1152.0" y2="296.0" stroke="#D7DEEC" stroke-width="1"/>
+    <text x="194.0" y="301.0" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#8C97AD">100</text>
+    <rect x="244.0" y="396.3" width="76" height="163.7" rx="5" fill="#214DC5"/>
+    <text x="282.0" y="384.3" text-anchor="middle" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#434C61">62</text>
+    <rect x="332.0" y="433.3" width="76" height="126.7" rx="5" fill="#AFC0E8"/>
+    <text x="370.0" y="421.3" text-anchor="middle" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#434C61">48</text>
+    <text x="326.0" y="592" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#434C61">{{BAR_CAT_1}}</text>
+    <rect x="480.0" y="364.6" width="76" height="195.4" rx="5" fill="#214DC5"/>
+    <text x="518.0" y="352.6" text-anchor="middle" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#434C61">74</text>
+    <rect x="568.0" y="414.8" width="76" height="145.2" rx="5" fill="#AFC0E8"/>
+    <text x="606.0" y="402.8" text-anchor="middle" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#434C61">55</text>
+    <text x="562.0" y="592" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#434C61">{{BAR_CAT_2}}</text>
+    <rect x="716.0" y="346.2" width="76" height="213.8" rx="5" fill="#214DC5"/>
+    <text x="754.0" y="334.2" text-anchor="middle" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#434C61">81</text>
+    <rect x="804.0" y="383.1" width="76" height="176.9" rx="5" fill="#AFC0E8"/>
+    <text x="842.0" y="371.1" text-anchor="middle" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#434C61">67</text>
+    <text x="798.0" y="592" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#434C61">{{BAR_CAT_3}}</text>
+    <rect x="952.0" y="314.5" width="76" height="245.5" rx="5" fill="#214DC5"/>
+    <text x="990.0" y="302.5" text-anchor="middle" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#434C61">93</text>
+    <rect x="1040.0" y="369.9" width="76" height="190.1" rx="5" fill="#AFC0E8"/>
+    <text x="1078.0" y="357.9" text-anchor="middle" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#434C61">72</text>
+    <text x="1034.0" y="592" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#434C61">{{BAR_CAT_4}}</text>
+  </g>
+  <g id="chart-legend">
+    <rect x="208.0" y="254.0" width="14" height="14" rx="3" fill="#214DC5"/>
+    <text x="230.0" y="266.0" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#434C61">다비오</text>
+    <rect x="267.0" y="254.0" width="14" height="14" rx="3" fill="#AFC0E8"/>
+    <text x="289.0" y="266.0" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#434C61">업계 평균</text>
+  </g>
+  <g id="benchmark-note">
+    <rect x="88.0" y="620.0" width="1112.0" height="72" rx="12" fill="#F1F5FB" stroke="#D7DEEC" stroke-width="1"/>
+    <rect x="88.0" y="620.0" width="6" height="72" rx="3" fill="#00B0F0"/>
+    <text x="120.0" y="652.0" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#214DC5">{{BAR_NOTE_TITLE}}</text>
+    <text x="120.0" y="678.0" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#434C61">{{BAR_NOTE_BODY}}</text>
+  </g>
+</svg>

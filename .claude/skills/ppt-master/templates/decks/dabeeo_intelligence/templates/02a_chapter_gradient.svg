@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="dabeeo-master" data-pptx-master-name="Dabeeo Intelligence" data-pptx-layout="chapter_gradient" data-pptx-layout-name="Chapter Divider (Gradient)">
+  <!-- Dabeeo Intelligence — 02a Chapter divider variant · photo-free gradient band -->
+  <defs><linearGradient id="chapterBand" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#214DC5"/><stop offset="1" stop-color="#34A8FD"/></linearGradient></defs>
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="layout-chapter-band" x="0" y="0" width="1280" height="720" fill="url(#chapterBand)" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-chapter-keyline" x="88" y="248" width="88" height="6" fill="#FFFFFF" opacity="0.85" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <g id="chapter-num-slot" data-pptx-placeholder="body" data-pptx-placeholder-idx="1" data-pptx-placeholder-bounds="88 288 600 84">
+    <text id="chapter-num-carrier" data-pptx-placeholder-carrier="true" x="88" y="352" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="80" letter-spacing="-4.44" fill="#FFFFFF" opacity="0.72">{{CHAPTER_NUM}}</text>
+  </g>
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="88 372 900 84">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="88" y="436" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="80" letter-spacing="-4.44" fill="#FFFFFF">{{CHAPTER_TITLE}}</text>
+  </g>
+  <g id="chapter-desc-slot" data-pptx-placeholder="body" data-pptx-placeholder-idx="2" data-pptx-placeholder-bounds="88 470 760 52">
+    <text id="chapter-desc-carrier" data-pptx-placeholder-carrier="true" x="88" y="498" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="18.67" fill="#FFFFFF" opacity="0.88">{{CHAPTER_DESC}}</text>
+  </g>
+</svg>
