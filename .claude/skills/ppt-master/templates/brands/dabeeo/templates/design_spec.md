@@ -60,10 +60,13 @@ primary_color: "#192A67"
 타이틀 자간 -0.02em, 본문 -0.01em. 숫자는 가능한 경우 tabular figures.
 영문 고유명사 `dabeeo`는 **항상 소문자**로 표기합니다.
 
-> ⚠️ **Paperlogy는 이 저장소에 번들되어 있지 않습니다.** 사내 자료에서 "지구를 읽고 해석합니다",
-> "Reading the Earth" 같은 대형 문구에만 쓰이는 디스플레이 서체입니다. 쓰려면 (1) 덱을 여는 PC마다
-> 로컬 설치가 필요하고, (2) 재배포 가능 여부를 라이선스에서 확인해야 합니다 — 저는 이 서체의
-> 라이선스 조건을 확인하지 못했습니다. 확인 전까지는 **표지 대형 문구도 Pretendard 700으로 대체**하세요.
+**Paperlogy**는 사내 자료에서 "지구를 읽고 해석합니다", "Reading the Earth" 같은 **대형 문구에만** 쓰이는
+디스플레이 서체입니다. 본문·불릿·표에는 쓰지 마세요 — 그 자리는 Pretendard입니다.
+
+- 번들 위치: `.claude/skills/ppt-master/assets/fonts/Paperlogy/` (Regular 400 · SemiBold 600 · Bold 700)
+- 라이선스: SIL OFL 1.1, Copyright © 2024 PT& — 폰트 파일 내 name table로 확인. 같은 폴더의 `LICENSE.txt` 참조
+- PPTX는 폰트를 내장하지 않으므로, **덱을 여는 PC마다 Paperlogy 설치가 필요합니다.** 미설치 환경에서는
+  Georgia/serif로 대체돼 인상이 크게 달라지므로, 외부 배포용 덱은 Pretendard 700으로 통일하는 편이 안전합니다
 
 ## IV. Logo
 

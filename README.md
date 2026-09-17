@@ -65,7 +65,9 @@ projects/<프로젝트>/svg_final/                        ← 브라우저로 �
 
 모든 덱은 **Pretendard**(SIL OFL) 한 가족으로 통일됩니다. 위계는 폰트를 바꾸는 게 아니라 굵기(Medium/SemiBold/Bold)와 크기로 만듭니다. 폰트 파일은 [`.claude/skills/ppt-master/assets/fonts/Pretendard/`](.claude/skills/ppt-master/assets/fonts/Pretendard/)에 번들되어 있습니다.
 
-> PPTX는 폰트를 내장하지 않으므로, 만든 덱을 **다른 컴퓨터에서 열 때는 그쪽에도 Pretendard 설치**가 필요합니다.
+**단 하나의 예외** — `dabeeo` 브랜드 프리셋은 표지 대형 문구에 한해 **Paperlogy**(SIL OFL)를 씁니다. 본문·불릿·표는 그대로 Pretendard입니다. 폰트는 [`assets/fonts/Paperlogy/`](.claude/skills/ppt-master/assets/fonts/Paperlogy/)에 Regular·SemiBold·Bold 3종이 번들되어 있습니다.
+
+> PPTX는 폰트를 내장하지 않으므로, 만든 덱을 **다른 컴퓨터에서 열 때는 그쪽에도 Pretendard 설치**가 필요합니다(Paperlogy를 쓴 덱이면 그것도 함께).
 
 ---
 
@@ -253,6 +255,7 @@ git merge upstream/main
 - **Python 3.10+** — 변환·검사·후처리 스크립트 전부
 - **자체 SVG → DrawingML 변환기** — 래스터화 없이 네이티브 PPTX 생성
 - **Pretendard** (SIL OFL) — 전 덱 고정 폰트, 저장소에 번들
+- **Paperlogy** (SIL OFL, © 2024 PT&) — dabeeo 프리셋 표지 전용 디스플레이 폰트, 저장소에 번들
 - **Playwright + Chromium** — 지오메트리 게이트의 선별 픽셀 확인·시각 검토용 페이지 렌더링 (선택 — 없으면 정적 검사만 동작)
 - **OfficeCLI 1.0.135** — 수출 PPTX 스키마 검증·넘침 검출·렌더 확인 (선택)
 - **Tabler / Phosphor / Simple Icons** — 내장 아이콘 라이브러리
