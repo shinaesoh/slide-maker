@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="dabeeo-master" data-pptx-master-name="Dabeeo Intelligence" data-pptx-layout="ending" data-pptx-layout-name="Closing">
+  <!-- Dabeeo Intelligence — 04 Closing · full-bleed earth photo, dark scrim, brand sign-off -->
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="layout-ending-bg" x="0" y="0" width="1280" height="720" fill="#000000" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <image id="layout-ending-photo" href="../images/ending-earth.jpg" x="0" y="0" width="1430.5" height="720" opacity="0.606" preserveAspectRatio="none" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <image id="layout-ending-wordmark" href="../images/ending-wordmark.png" x="364.71" y="415.03" width="550.57" height="123.07" opacity="0.26" preserveAspectRatio="none" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <text id="layout-ending-brand" x="18.24" y="695.63" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="24" fill="#FFFFFF" data-pptx-layer="layout" data-pptx-editable="false">DABEEO INTELLIGENCE</text>
+  <g id="subtitle-slot" data-pptx-placeholder="subtitle" data-pptx-placeholder-bounds="109.33 250.04 1061.33 54.93">
+    <text id="subtitle-carrier" data-pptx-placeholder-carrier="true" x="640" y="286.57" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="37.33" fill="#D9D9D9">{{ENDING_SUBTITLE}}</text>
+  </g>
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="394 306.58 492 80.78">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="640" y="361.25" text-anchor="middle" font-family="'Pretendard Light', Pretendard, 'Malgun Gothic', sans-serif" font-size="58.67" font-weight="bold" fill="#D9D9D9">{{CLOSING_MESSAGE}}</text>
+  </g>
+</svg>

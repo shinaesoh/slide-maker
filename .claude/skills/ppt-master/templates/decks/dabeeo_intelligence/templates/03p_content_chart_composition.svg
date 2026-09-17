@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="dabeeo-master" data-pptx-master-name="Dabeeo Intelligence" data-pptx-layout="content_full" data-pptx-layout-name="Content (Full Width)">
+  <!-- Dabeeo Intelligence — 03p Composition chart · native doughnut marker with a share legend -->
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <line id="layout-rail" x1="56.89" y1="0" x2="56.89" y2="538.22" stroke="#BFBFBF" stroke-width="1.333" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <text id="layout-vertical-mark" transform="rotate(90 56.89 561.41)" x="157.82" y="564.74" text-anchor="end" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="10.67" fill="#214DC5" data-pptx-layer="layout" data-pptx-editable="false">DABEEO INTELLIGENCE</text>
+  <text id="layout-footer-note" x="640" y="704.24" text-anchor="middle" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="13.33" fill="#808080" data-pptx-layer="layout" data-pptx-editable="false">Dabeeo Inc. All rights reserved and confidential</text>
+  <image id="layout-footer-logo" href="../images/dabeeo-logo-footer.png" x="1199.67" y="692.82" width="57.78" height="12.85" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <g id="eyebrow-slot" data-pptx-placeholder="body" data-pptx-placeholder-idx="1" data-pptx-placeholder-bounds="103.17 45.56 1103.83 35.66">
+    <text id="eyebrow-carrier" data-pptx-placeholder-carrier="true" x="655.08" y="81.83" text-anchor="middle" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="21.33" fill="#00B0F0">{{EYEBROW}}</text>
+  </g>
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="103.17 87.11 1103.83 47.5">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="655.08" y="121.38" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="34.67" font-weight="bold" fill="#214DC5">{{PAGE_TITLE}}</text>
+  </g>
+  <g id="lead-slot" data-pptx-placeholder="body" data-pptx-placeholder-idx="2" data-pptx-placeholder-bounds="103.17 140.83 1103.83 68">
+    <text id="lead-carrier" data-pptx-placeholder-carrier="true" x="655.08" y="167.55" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18.67" fill="#434C61">{{LEAD}}<tspan x="655.08" dy="23.15">{{LEAD_2}}</tspan></text>
+  </g>
+  <g id="page-number-slot" data-pptx-placeholder="slide-number" data-pptx-placeholder-bounds="28.44 672.71 58 38.33">
+    <text id="page-number-carrier" data-pptx-placeholder-carrier="true" x="57.44" y="704.24" text-anchor="middle" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="13.33" fill="#808080">{{PAGE_NUM}}</text>
+  </g>
+  <g id="chapter-mark">
+    <rect x="0" y="67.11" width="56.89" height="44.21" fill="#214DC5"/>
+    <text x="28.44" y="109.22" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="26.67" font-weight="bold" fill="#FFFFFF">03</text>
+    <text x="1257.44" y="32.21" text-anchor="end" font-family="'Pretendard Light', Pretendard, 'Malgun Gothic', sans-serif" font-size="12" fill="#253062">03 핵심 기술 및 제품</text>
+  </g>
+  <g id="composition-chart" data-pptx-native="chart">
+    <metadata data-pptx-native="chart">{"x": 288.0, "y": 278.0, "width": 304.0, "height": 304.0, "type": "doughnut", "categories": ["{{PIE_CAT_1}}", "{{PIE_CAT_2}}", "{{PIE_CAT_3}}", "{{PIE_CAT_4}}"], "series": [{"name": "매출 구성", "values": [42, 28, 18, 12], "point_colors": ["#214DC5", "#34A8FD", "#00B0F0", "#AFC0E8"]}], "style": {"colors": ["#214DC5", "#34A8FD", "#00B0F0", "#AFC0E8"]}}</metadata>
+    <path d="M 440.00 278.00 A 152.0 152.0 0 0 1 513.23 563.20 L 484.32 510.62 A 92.0 92.0 0 0 0 440.00 338.00 Z" fill="#214DC5"/>
+    <path d="M 513.23 563.20 A 152.0 152.0 0 0 1 295.44 476.97 L 352.50 458.43 A 92.0 92.0 0 0 0 484.32 510.62 Z" fill="#34A8FD"/>
+    <path d="M 295.44 476.97 A 152.0 152.0 0 0 1 335.95 319.20 L 377.02 362.93 A 92.0 92.0 0 0 0 352.50 458.43 Z" fill="#00B0F0"/>
+    <path d="M 335.95 319.20 A 152.0 152.0 0 0 1 440.00 278.00 L 440.00 338.00 A 92.0 92.0 0 0 0 377.02 362.93 Z" fill="#AFC0E8"/>
+    <text x="440.0" y="426.0" text-anchor="middle" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="44" letter-spacing="-2" fill="#214DC5">{{PIE_CENTER}}</text>
+    <text x="440.0" y="456.0" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#434C61">{{PIE_CENTER_LABEL}}</text>
+  </g>
+  <g id="composition-legend">
+    <rect x="700" y="284.0" width="500" height="64" rx="12" fill="#F1F5FB" stroke="#D7DEEC" stroke-width="1"/>
+    <rect x="700" y="284.0" width="8" height="64" rx="4" fill="#214DC5"/>
+    <text x="732" y="324.0" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#112662">{{PIE_CAT_1}}</text>
+    <text x="1176" y="324.0" text-anchor="end" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="26" fill="#214DC5">42%</text>
+    <rect x="700" y="368.0" width="500" height="64" rx="12" fill="#F1F5FB" stroke="#D7DEEC" stroke-width="1"/>
+    <rect x="700" y="368.0" width="8" height="64" rx="4" fill="#34A8FD"/>
+    <text x="732" y="408.0" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#112662">{{PIE_CAT_2}}</text>
+    <text x="1176" y="408.0" text-anchor="end" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="26" fill="#214DC5">28%</text>
+    <rect x="700" y="452.0" width="500" height="64" rx="12" fill="#F1F5FB" stroke="#D7DEEC" stroke-width="1"/>
+    <rect x="700" y="452.0" width="8" height="64" rx="4" fill="#00B0F0"/>
+    <text x="732" y="492.0" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#112662">{{PIE_CAT_3}}</text>
+    <text x="1176" y="492.0" text-anchor="end" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="26" fill="#214DC5">18%</text>
+    <rect x="700" y="536.0" width="500" height="64" rx="12" fill="#F1F5FB" stroke="#D7DEEC" stroke-width="1"/>
+    <rect x="700" y="536.0" width="8" height="64" rx="4" fill="#AFC0E8"/>
+    <text x="732" y="576.0" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#112662">{{PIE_CAT_4}}</text>
+    <text x="1176" y="576.0" text-anchor="end" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="26" fill="#214DC5">12%</text>
+  </g>
+</svg>

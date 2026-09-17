@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="dabeeo-master" data-pptx-master-name="Dabeeo Intelligence" data-pptx-layout="chapter" data-pptx-layout-name="Chapter Divider">
+  <!-- Dabeeo Intelligence — 02 Chapter divider · large numeral over earth photo -->
+  <defs><linearGradient id="coverScrim" x1="0" y1="0.5" x2="1" y2="0.5"><stop offset="0" stop-color="#FFFFFF" stop-opacity="1"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs>
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <image id="layout-chapter-photo" href="../images/chapter-earth.png" x="415.15" y="285.17" width="864.85" height="434.83" preserveAspectRatio="none" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-chapter-scrim" x="443.97" y="261.89" width="562.67" height="458.11" fill="url(#coverScrim)" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <image id="layout-chapter-hairline" href="../images/chapter-hairline.png" transform="rotate(90 56.44 361.78)" x="-312" y="360.89" width="736.89" height="1.78" opacity="0.55" preserveAspectRatio="none" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <g id="chapter-num-slot" data-pptx-placeholder="body" data-pptx-placeholder-idx="1" data-pptx-placeholder-bounds="71.11 240.99 562.67 84">
+    <text id="chapter-num-carrier" data-pptx-placeholder-carrier="true" x="71.11" y="308.99" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="80" letter-spacing="-4.44" fill="#214DC5">{{CHAPTER_NUM}}</text>
+  </g>
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="71.11 324.99 562.67 84">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="71.11" y="388.99" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="80" letter-spacing="-4.44" fill="#214DC5">{{CHAPTER_TITLE}}</text>
+  </g>
+  <g id="chapter-desc-slot" data-pptx-placeholder="body" data-pptx-placeholder-idx="2" data-pptx-placeholder-bounds="71.11 430.69 640 51.7">
+    <text id="chapter-desc-carrier" data-pptx-placeholder-carrier="true" x="80.71" y="451.35" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="18.67" fill="#1A5FC6">{{CHAPTER_DESC}}<tspan x="80.71" dy="20.14" font-family="'Pretendard ExtraLight', Pretendard, 'Malgun Gothic', sans-serif" font-size="16">{{CHAPTER_DESC_EN}}</tspan></text>
+  </g>
+</svg>

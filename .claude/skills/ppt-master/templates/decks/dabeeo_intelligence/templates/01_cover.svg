@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="dabeeo-master" data-pptx-master-name="Dabeeo Intelligence" data-pptx-layout="cover" data-pptx-layout-name="Cover">
+  <!-- Dabeeo Intelligence — 01 Cover · full-bleed earth photo with white left scrim -->
+  <defs><linearGradient id="coverScrim" x1="0" y1="0.5" x2="1" y2="0.5"><stop offset="0" stop-color="#FFFFFF" stop-opacity="1"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs>
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <image id="layout-cover-photo" href="../images/cover-earth.png" x="214.55" y="184.30" width="1065.55" height="535.70" preserveAspectRatio="none" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-cover-scrim" x="250.04" y="155.62" width="693.18" height="564.38" fill="url(#coverScrim)" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="72.57 188.35 562.67 213.26">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="72.57" y="263.15" font-family="'Pretendard ExtraBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="88" letter-spacing="-4.44" fill="#214DC5">{{TITLE}}<tspan x="72.57" dy="88">{{TITLE_2}}</tspan></text>
+  </g>
+  <g id="subtitle-slot" data-pptx-placeholder="subtitle" data-pptx-placeholder-bounds="72.57 380.96 502.22 44.44">
+    <text id="subtitle-carrier" data-pptx-placeholder-carrier="true" x="72.57" y="417.23" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="42.67" letter-spacing="-0.89" fill="#112662">{{SUBTITLE}}</text>
+  </g>
+</svg>
