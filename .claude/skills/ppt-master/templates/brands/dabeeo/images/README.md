@@ -4,7 +4,7 @@
 
 | 파일명 | 규격 | 쓰이는 곳 | 출처 |
 |---|---|---|---|
-| `dabeeo-wordmark-white.png` | 1531×342 RGBA | 네이비 표지·간지 등 어두운 면 | `decks/dabeeo_intelligence/images/ending-wordmark.png` 원본 그대로 |
+| `dabeeo-wordmark-white.png` | 1531×342 RGBA | 네이비 표지·간지 등 어두운 면 | `decks/dabeeo_business/images/ending-wordmark.png` 원본 그대로 |
 | `dabeeo-wordmark-navy.png` | 1531×342 RGBA | 흰 배경 본문 페이지 우상단 | 위 파일의 **알파 마스크를 그대로 두고 채움색만** `#192A67`로 변경 |
 
 > 네이비 버전은 글리프를 다시 그리거나 트레이싱한 것이 아니라 동일한 마스크의 색만 바꾼 것이라

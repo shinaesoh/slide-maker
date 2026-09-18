@@ -1,4 +1,4 @@
-# dabeeo_intelligence 이미지 자산
+# dabeeo_business 이미지 자산
 
 이 폴더의 6개 파일은 `templates/*.svg`에서 `../images/<name>`으로 참조합니다.
 **파일명과 픽셀 크기를 바꾸지 마세요** — SVG의 좌표가 이 크기를 전제로 환산돼 있습니다.
@@ -17,7 +17,7 @@
 교체 후 확인:
 
 ```bash
-python3 .claude/skills/ppt-master/scripts/svg_quality_checker.py .claude/skills/ppt-master/templates/decks/dabeeo_intelligence/templates --template-mode --format ppt169
+python3 .claude/skills/ppt-master/scripts/svg_quality_checker.py .claude/skills/ppt-master/templates/decks/dabeeo_business/templates --template-mode --format ppt169
 ```
 
 ## 포함된 자산

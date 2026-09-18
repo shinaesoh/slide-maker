@@ -1,9 +1,9 @@
 ---
-deck_id: dabeeo_intelligence
+deck_id: dabeeo_business
 kind: deck
 category: brand
-summary: 다비오 인텔리전스 기업소개 스타일 — 위성·공간 데이터 AI 기업 브리핑, 기술 신뢰성 설명, 사업화 현황 보고
-keywords: [dabeeo, 지구 인텔리전스, 위성영상 AI, 기업소개, 기술신뢰성]
+summary: 다비오 사업·제품 소개 스타일 — 제품군 소개, 사업 브리핑, 기술 신뢰성 설명, 사업화 현황 보고
+keywords: [dabeeo, 사업소개, 제품소개, 위성영상 AI, 기업소개, 기술신뢰성]
 primary_color: "#214DC5"
 canvas_format: ppt169
 canvas_width: 1280
@@ -46,12 +46,18 @@ placeholders:
   04_ending: ["{{ENDING_SUBTITLE}}", "{{CLOSING_MESSAGE}}"]
 ---
 
-# Dabeeo Intelligence Deck — Design Specification
+# Dabeeo Business Deck — Design Specification
 
 > `fidelity` 모드로 `다비오_소개.pptx`(15슬라이드 / 마스터 1 / 레이아웃 17)에서 저작.
 > 브랜드 아이덴티티와 페이지 크롬은 원본을 충실히 재현하고, Master/Layout/슬롯 체계와
 > 페이지 로스터는 새로 설계했다. 원본 레이아웃 17개는 전부 "챕터 번호만 다른 동일 헤더"
 > 계열이었으므로 출력 토폴로지 입력으로 사용하지 않았다.
+>
+> **이름 변경 이력 (2026-09-18)**: 덱 id와 표시 이름을 `dabeeo_intelligence` /
+> Dabeeo Intelligence Deck → `dabeeo_business` / Dabeeo Business Deck으로 바꿨다.
+> 페이지 SVG 안의 PowerPoint 마스터 선택기 이름 `Dabeeo Intelligence`와 좌측 레일
+> 문구 `DABEEO INTELLIGENCE`는 **그대로 유지**한다 — 이 이름으로 이미 내보낸 덱과
+> 마스터 표기가 어긋나지 않게 하기 위함이다.
 
 ---
 
@@ -59,8 +65,8 @@ placeholders:
 
 | Property | Value |
 | --- | --- |
-| **Display Name** | Dabeeo Intelligence Deck |
-| **Use Cases** | 기업 소개, 기술 신뢰성 브리핑, 사업화 현황 보고, 투자자·발주처 대상 회사 개요 |
+| **Display Name** | Dabeeo Business Deck |
+| **Use Cases** | 사업·제품군 소개, 기업 소개, 기술 신뢰성 브리핑, 사업화 현황 보고, 투자자·발주처 대상 개요 |
 | **Design Tone** | 절제된 기술 브리핑 — 흰 바탕 · 로열블루 위계 · 지구 관측 사진을 한 장씩만 크게 |
 | **Theme Mode** | Light — 본문 전 페이지 흰 배경, 표지/간지/클로징만 사진·그라데이션 면 |
 
@@ -78,7 +84,7 @@ placeholders:
 
 > ⚠️ **이 표는 이 덱 전용 스킨이며, 다비오 범용 브랜드 색과 다릅니다.**
 >
-> | | 이 덱 (`decks/dabeeo_intelligence`) | `brands/dabeeo` |
+> | | 이 덱 (`decks/dabeeo_business`) | `brands/dabeeo` |
 > |---|---|---|
 > | 성격 | 기업소개 덱 전용 (28페이지 고정 구성) | 범용 아이덴티티 — 제안서·보고·발표 전반 |
 > | 파랑 | `#214DC5` | `#1E57DC` |

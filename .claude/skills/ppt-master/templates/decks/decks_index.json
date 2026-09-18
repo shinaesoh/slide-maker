@@ -10,8 +10,8 @@
       "delivery_purpose": "balanced"
     }
   },
-  "dabeeo_intelligence": {
-    "summary": "다비오 인텔리전스 기업소개 스타일 — 위성·공간 데이터 AI 기업 브리핑, 기술 신뢰성 설명, 사업화 현황 보고. 이 덱 전용 스킨(파랑 #214DC5)이며 범용 브랜드 프리셋 brands/dabeeo(#1E57DC)와 색이 다름. 일반 제안서·보고서는 그쪽을 쓸 것",
+  "dabeeo_business": {
+    "summary": "다비오 사업·제품 소개 스타일 — 제품군 소개, 사업 브리핑, 기술 신뢰성 설명, 사업화 현황 보고. 이 덱 전용 스킨(파랑 #214DC5)이며 범용 브랜드 프리셋 brands/dabeeo(#1E57DC)와 색이 다름. 일반 제안서·보고서는 그쪽을 쓸 것",
     "canvas_format": "ppt169",
     "page_count": 28,
     "primary_color": "#214DC5"
