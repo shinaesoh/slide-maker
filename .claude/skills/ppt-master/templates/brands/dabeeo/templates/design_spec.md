@@ -27,7 +27,7 @@ primary_color: "#192A67"
 
 > ⚠️ **저장소 안에 dabeeo 색 기준이 두 벌 있습니다. 이건 그중 범용 쪽입니다.**
 >
-> | | 이 프리셋 (`brands/dabeeo`) | `decks/dabeeo_intelligence` |
+> | | 이 프리셋 (`brands/dabeeo`) | `decks/dabeeo_business` |
 > |---|---|---|
 > | 성격 | 범용 아이덴티티 — 제안서·보고·발표 전반 | 기업소개 덱 **전용 스킨** (28페이지 고정 구성) |
 > | 파랑 | `#1E57DC` | `#214DC5` |
