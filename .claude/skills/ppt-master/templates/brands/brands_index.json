@@ -8,7 +8,7 @@
     "primary_color": "#1D1D1F"
   },
   "dabeeo": {
-    "summary": "dabeeo 코퍼레이트 아이덴티티 — 공공사업 제안서, 사업 소개, 기술 발표, 사내 보고 (로고 이미지 미포함: images/README.md 참고)",
+    "summary": "dabeeo 범용 코퍼레이트 아이덴티티 — 공공사업 제안서, 사업 소개, 기술 발표, 사내 보고. 파랑 #1E57DC (사내 디자인 자료 토큰). 기업소개 덱은 자체 스킨을 쓰는 decks/dabeeo_intelligence(#214DC5)를 참조",
     "primary_color": "#192A67"
   },
   "google": {
