@@ -246,6 +246,21 @@ Office 기본 팔레트(`#4472C4` / `#ED7D31` / `#A5A5A5` …)로 렌더된다.
 포인트별 불투명도가 없으므로 **흰 바탕에 합성한 solid 색으로 환산**해 양쪽이 같게 만들었다.
 차트 색을 바꿀 때는 폴백 도형과 마커 메타데이터를 **반드시 함께** 수정한다.
 
+> ⛔ **이 규칙을 어겨도 아무도 경고해 주지 않는다.** 이 덱의 마커는 손으로 작성한 것이라
+> `data-pptx-fallback-sha256` 기준값이 없고(`references/native-objects.md` 기준 정상 상태),
+> 기준값이 없으면 **폴백과 메타데이터의 불일치를 시스템이 탐지하지 못한다.**
+> 그려진 `rect`/`text`만 고치고 `metadata`를 그대로 두면, 화면에는 고친 값이 보이는데
+> `--native-objects`로 내보낸 PPT 표·차트에는 **옛 값이 들어간다.** 오류도 경고도 나지 않는다.
+>
+> 값·색·행열을 고칠 때는 항상 두 곳을 같이 고치고, 내보낸 뒤 실제 표 내용을 확인한다:
+>
+> ```bash
+> python3 -c "from pptx import Presentation; p=Presentation('<exported.pptx>'); print([[c.text for c in r.cells] for s in p.slides for sh in s.shapes if sh.has_table for r in sh.table.rows])"
+> ```
+>
+> (기준값을 템플릿에 미리 심는 방식은 쓸 수 없다. 플레이스홀더를 실제 내용으로 바꾸는 순간
+> 해시가 어긋나 `--native-objects`가 하드 실패한다 — 실측 확인함.)
+
 네이티브 경로는 편집 우선이라 손실이 있을 수 있다 — 마커 안의 값 라벨, 도넛 중앙 KPI,
 축 고정 범위는 정규화되거나 사라질 수 있다. 두 결과를 비교한 뒤 배포한다.
 `03r` / `03s`는 PowerPoint 차트로 대응되지 않는 구성이라 벡터 전용으로 남겼다.
